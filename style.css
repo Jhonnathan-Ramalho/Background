@@ -1,0 +1,33 @@
+p{
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg{
+    background-color: lightgreen;
+    background-image: url('./imagens/cat.png');
+}
+
+.bg-image {
+    width: 1000px;
+    height: 600px;
+}
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.bg-size-cover {
+    background-size: cover;
+    height: 700px;
+}
+.bg-fixed {
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+}
+.bg-position {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 700px;
+}
